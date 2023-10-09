@@ -1,5 +1,5 @@
 # Dành cho các bạn Việt Nam
-
+#nguồn từ github luxysiv/Cloudflare-Gateway-Pihole 
 Các bạn cần phân biệt bộ lọc DNS và bộ lọc browser. Mình thấy nhiều bạn đem bộ lọc browser lên chạy -> lỗi lướt web
 
 # Credit
