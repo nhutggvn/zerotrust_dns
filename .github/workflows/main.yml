@@ -11,9 +11,12 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
+          
+      - name: Keep alive 
+        uses: gautamkrishnar/keepalive-workflow@v1
 
       - name: Install Python
         uses: actions/setup-python@v4
